@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2ab79d;
+    background-color: #1a1a2e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,4 +29,45 @@ h1 {
     font-size: 1.8rem;
     margin-bottom: 8px;
     color: #a29bfe;
+}
+
+#contador {
+    text-align: center;
+    margin-top: 24px;
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+#btnAumentar {
+    margin-top: 24px;
+    width: 48%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#btnDecrementar {
+    margin-top: 24px;
+    width: 48%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
