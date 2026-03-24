@@ -22,6 +22,6 @@ btnDecrementar.addEventListener("click", function () {
     contadorElement.textContent = cont;
     console.log(`Contador: ${cont}`);
     if (cont <= 9) {
-        contadorElement.style.color = "green"
+        contadorElement.style.color = "white"
     }
 });
